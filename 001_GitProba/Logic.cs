@@ -8,9 +8,9 @@ namespace _001_GitProba
 {
     public class Logic
     {
-        public static int PowerOf2(int a) 
+        public static int Power(int a, int p) 
         {
-            return a * a;
+            return (int)Math.Pow(a, p);
         }
     }
 }
