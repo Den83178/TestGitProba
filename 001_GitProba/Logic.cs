@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _001_GitProba
 {
-    internal class Logic
+    public class Logic
     {
-        public int PowerOf2(int a) 
+        public static int PowerOf2(int a) 
         {
-            return a * a * a;
+            return a * a;
         }
     }
 }
